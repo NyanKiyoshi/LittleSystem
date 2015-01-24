@@ -1,15 +1,3 @@
-# LittleSystem
-Miscellaneous scripts, customizations, settings, etc. For Linux users (written on Arch).
-
-
-Table
-=====
-- [/etc/profile.d/startup.sh](/etc/profile.d/startup.sh)
-⋅⋅⋅ Loads the X11 environment from the ~/.xinitrc when the user login into the TTY1 and if a X environment is not already started.
-
-
-License
-=======
 DO WHATEVER YOU WANT WITH THIS (to the public domain) [mixed between the WTFPL and MIT licenses].
 
 Everyone is permitted to copy, distribute verbatim or modified copies of this software, and
