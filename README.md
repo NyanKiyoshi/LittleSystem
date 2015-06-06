@@ -1,11 +1,18 @@
 # LittleSystem
-Miscellaneous scripts, customizations, settings, etc. For Linux users (written on Arch).
+Miscellaneous scripts, customizations, settings, etc. For Linux users (often written on Arch).
 
 
 Table
 =====
+#### System Script
 - [/etc/profile.d/startup.sh](/etc/profile.d/startup.sh)
 ⋅⋅⋅ Loads the X11 environment from the ~/.xinitrc when the user login into the TTY1 and if a X environment is not already started.
+- [/etc/init.d/transmission-daemon](/etc/init.d/transmission-daemon)
+⋅⋅⋅ Modified service file for the transmission's daemon with support of logging (written under Debian).
+
+#### User Script/ User Customizations
+- [/home/user/scripts/ratio.py](/home/user/scripts/ratio.py)
+⋅⋅⋅ Calculates the ratio aspect from a given height and width and if given, from the new height or new width.
 
 
 License
@@ -26,4 +33,4 @@ COPYING, DISTRIBUTION AND MODIFICATION ARE ALLOWED.
 Just do whatever you want until the name is changed if any modification are being done.
 
 
-Copyright (C) 2015 NyanKiyoshi - https://github.com/NyanKiyoshi/
+Copyright "(C)" 2015 NyanKiyoshi - https://github.com/NyanKiyoshi/
