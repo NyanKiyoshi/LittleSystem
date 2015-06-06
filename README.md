@@ -6,13 +6,16 @@ Table
 =====
 #### System Script
 - [/etc/profile.d/startup.sh](/etc/profile.d/startup.sh)
-⋅⋅⋅ Loads the X11 environment from the ~/.xinitrc when the user login into the TTY1 and if a X environment is not already started.
+
+    Loads the X11 environment from the ~/.xinitrc when the user login into the TTY1 and if a X environment is not already started.
 - [/etc/init.d/transmission-daemon](/etc/init.d/transmission-daemon)
-⋅⋅⋅ Modified service file for the transmission's daemon with support of logging (written under Debian).
+
+    Modified service file for the transmission's daemon with support of logging (written under Debian).
 
 #### User Script/ User Customizations
 - [/home/user/scripts/ratio.py](/home/user/scripts/ratio.py)
-⋅⋅⋅ Calculates the ratio aspect from a given height and width and if given, from the new height or new width.
+
+    Calculates the ratio aspect from a given height and width and if given, from the new height or new width.
 
 
 License
