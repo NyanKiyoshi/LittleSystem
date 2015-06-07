@@ -24,7 +24,7 @@ The open source licenses are listed [here](LICENSES.md).
 
 The others works are under the following license:
 
-    ```
+```
 DO WHATEVER YOU WANT WITH THIS (to the public domain) [mixed between the WTFPL and MIT licenses].
 
 Everyone is permitted to copy, distribute verbatim or modified copies of this software, and
@@ -42,4 +42,4 @@ Just do whatever you want until the name is changed if any modification are bein
 
 
 Copyright "(C)" 2015 NyanKiyoshi - https://github.com/NyanKiyoshi/
-    ```
+```
