@@ -1,0 +1,114 @@
+! ################################# Preview #################################
+! --------------------- https://i.imgur.com/ZGFL1cq.png ---------------------
+! ###########################################################################
+
+! ################################ Extensions ###############################
+
+urxvt.perl-lib:                /usr/lib/urxvt/perl
+urxvt.perl-ext-common:         default,matcher
+urxvt.perl-matcher:            1
+
+! launch clicked links into...
+urxvt.url-launcher:            /home/sayuri/bin/firefox/firefox
+
+! open YouTube URLs in VLC
+urxvt.matcher.pattern.1:       \\bhttps?:\/\/(www.youtube|youtube).com\/watch\\?v=([\\w-]*)
+urxvt.matcher.launcher.1:      vlc $0
+
+! clickable links with the wheel button (2) or 1 for left click/ 3 for right click.
+urxvt.matcher.button:          2
+
+urxvt.letterspace:            -5
+
+urxvt.internalBorder:          5
+urxvt.dynamicColors:           on
+urxvt.urgentOnBell:            true
+urxvt.geometry:                142x38
+
+
+! ############################## XFT - Settings #############################
+
+Xft.antialias:                 true
+Xft.autohint:                  0
+Xft.dpi:                       96
+Xft.hinting:                   true
+Xft.hintstyle:                 hintfull
+Xft.lcdfilter:                 lcddefault
+Xft.rgba:                      rgb
+
+
+! ############################# URXVT - Settings ############################
+
+urxvt.borderLess:              true
+urxvt.scrollBar:               false
+urxvt.cursorBlink:             true
+urxvt.cursorUnderline:         true
+urxvt.depth:                   32
+urxvt.saveLines:               12000
+
+! fonts
+urxvt.font:                    xft:terminus:hinting=true:pixelsize=18:antialias=true:size=12
+urxvt.boldFont:                xft:terminus:style=bold:hinting=true:pixelsize=18:antialias=true:size=12
+urxvt.italicFont:              xft:terminus:style=italic:hinting=true:pixelsize=18:antialias=true:size=12
+urxvt.boldItalicFont:          xft:terminus:style=bolditalic:hinting=true:pixelsize=18:antialias=true:size=12
+
+! urls must be underlined
+urxvt.underlineURLs:           true
+
+! on link click open in...
+urxvt.url-select.launcher:     /usr/bin/firefox
+
+! underline on link selected
+urxvt.url-select.underline:    true
+
+urxvt.keysym.Home:             \033[1~
+urxvt.keysym.End:              \033[4~
+
+
+! ############################## URXVT - Colors #############################
+
+urxvt.cursorColor:             #999999
+
+! color for the bold attribute
+urxvt.VT100.colorBDMode:       true
+
+! color for the underline
+urxvt.VT100.colorULMode:       true
+urxvt.VT100.colorUL:           magenta
+
+urxvt.VT100.veryBoldColors:    6
+
+urxvt.background:              rgba:1111/1111/1111/dddd
+urxvt.foreground:              #cccccc
+
+! black
+urxvt.color0:                  #bf3138
+urxvt.color8:                  #bf3138
+
+! red
+urxvt.color1:                  #d66c2f
+urxvt.color9:                  #d66c2f
+
+! green
+urxvt.color2:                  #31bf71
+urxvt.color10:                 #31bf71
+
+! yellow
+urxvt.color3:                  #bf9431
+urxvt.color11:                 #bf9431
+
+! blue
+urxvt.color4:                  #317fbf
+urxvt.color12:                 #317fbf
+
+! magenta
+urxvt.color5:                  #bf3197
+urxvt.color13:                 #bf3197
+
+! cyan
+urxvt.color6:                  #31bfb7
+urxvt.color14:                 #31bfb7
+
+! white
+urxvt.color7:                  #cccccc
+urxvt.color15:                 #cccccc
