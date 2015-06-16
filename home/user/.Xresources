@@ -37,6 +37,14 @@ Xft.lcdfilter:                 lcddefault
 Xft.rgba:                      rgb
 
 
+! ############################# RXVT - Settings #############################
+
+rxvt*font:                     -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+rxvt*boldFont:                 -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+rxvt*italicFont:               -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+rxvt*bolditalicFont:           -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
+
+
 ! ############################# URXVT - Settings ############################
 
 urxvt.borderLess:              true
