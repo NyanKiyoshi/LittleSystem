@@ -19,7 +19,7 @@ Table
 
 - [/home/user/.Xresources](/home/user/.Xresources)
 
-    Customizations for [URXVT](http://software.schmorp.de/pkg/rxvt-unicode) (also needs the [Terminus](.fonts/Terminus.ttf) font installed). [[Preview](https://i.imgur.com/ZGFL1cq.png)]
+    Customizations for [URXVT](http://software.schmorp.de/pkg/rxvt-unicode). [[Preview](https://i.imgur.com/95T3Gn9.png)]
 
 
 License
