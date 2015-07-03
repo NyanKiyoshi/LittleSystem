@@ -6,24 +6,24 @@ Table
 =====
 #### System Script
 - [/etc/profile.d/startup.sh](/etc/profile.d/startup.sh)
+
     Loads the X11 environment from the ~/.xinitrc when the user login into the TTY1 and if a X environment is not already started.
 - [/etc/init.d/transmission-daemon](/etc/init.d/transmission-daemon)
+
     Modified service file for the transmission's daemon with support of logging (written under Debian).
 
 #### User Script/ User Customizations
 - [/home/user/scripts/ratio.py](/home/user/scripts/ratio.py)
+
     Calculates the ratio aspect from a given height and width and if given, from the new height or new width.
 
 - [/home/user/.Xresources](/home/user/.Xresources)
+
     Customizations for [URXVT](http://software.schmorp.de/pkg/rxvt-unicode) (also needs the [Terminus](.fonts/Terminus.ttf) font installed). [[Preview](https://i.imgur.com/ZGFL1cq.png)]
 
 
-Licenses
-========
-The open source licenses are listed [here](LICENSES.md).
-
-The others works are under the following license:
-
+License
+=======
 ```
 DO WHATEVER YOU WANT WITH THIS (to the public domain) [mixed between the WTFPL and MIT licenses].
 

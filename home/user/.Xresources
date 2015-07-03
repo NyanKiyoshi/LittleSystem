@@ -1,5 +1,5 @@
 ! ################################# Preview #################################
-! --------------------- https://i.imgur.com/ZGFL1cq.png ---------------------
+! --------------------- https://i.imgur.com/95T3Gn9.png ---------------------
 ! ###########################################################################
 
 ! ################################ Extensions ###############################
@@ -17,13 +17,6 @@ urxvt.matcher.launcher.1:      vlc $0
 
 ! clickable links with the wheel button (2) or 1 for left click/ 3 for right click.
 urxvt.matcher.button:          2
-
-urxvt.letterspace:            -5
-
-urxvt.internalBorder:          5
-urxvt.dynamicColors:           on
-urxvt.urgentOnBell:            true
-urxvt.geometry:                142x38
 
 
 ! ############################## XFT - Settings #############################
@@ -47,18 +40,21 @@ rxvt*bolditalicFont:           -*-tamzen-medium-r-normal-*-*-87-*-*-*-*-*-*
 
 ! ############################# URXVT - Settings ############################
 
+urxvt.font:                    xft:Inconsolata-12.5
+
+urxvt.letterspace:             -5
+
+urxvt.internalBorder:          5
+urxvt.dynamicColors:           on
+urxvt.urgentOnBell:            true
+urxvt.geometry:                142x38
+
 urxvt.borderLess:              true
 urxvt.scrollBar:               false
 urxvt.cursorBlink:             true
 urxvt.cursorUnderline:         true
 urxvt.depth:                   32
 urxvt.saveLines:               12000
-
-! fonts
-urxvt.font:                    xft:terminus:hinting=true:pixelsize=18:antialias=true:size=12
-urxvt.boldFont:                xft:terminus:style=bold:hinting=true:pixelsize=18:antialias=true:size=12
-urxvt.italicFont:              xft:terminus:style=italic:hinting=true:pixelsize=18:antialias=true:size=12
-urxvt.boldItalicFont:          xft:terminus:style=bolditalic:hinting=true:pixelsize=18:antialias=true:size=12
 
 ! urls must be underlined
 urxvt.underlineURLs:           true
